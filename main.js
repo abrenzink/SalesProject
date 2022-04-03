@@ -8,7 +8,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    items = jsonObject['business'];
+    items = jsonObject['items'];
     displayCards(items);
   });
 
