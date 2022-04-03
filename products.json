@@ -1,10 +1,10 @@
 {
     "items": [
       {
-        "title": "AMAZONAS GT",
+        "title": "TESTE",
         "imageURL": "",
-        "description": "Rua Tito Bittencourt, 142 - Sao Francisco, Manaus - AM, 69.079-040",
-        "available": "true"
+        "description": "thats it",
+        "available": "false"
       },
       {
         "title": "AMAZONAS GT",

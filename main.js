@@ -1,4 +1,4 @@
-const requestURL = 'https://abrenzink.github.io/wdd230/lesson9/chamber/data.json';
+const requestURL = 'https://abrenzink.github.io/SalesProject/products.json';
 
 let products = [];
 let items;
@@ -8,8 +8,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-
     items = jsonObject['business'];
     displayCards(items);
   });
