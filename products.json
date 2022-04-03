@@ -1,8 +1,8 @@
 {
     "items": [
       {
-        "title": "TESTE",
-        "imageURL": "",
+        "title": "Air Conditioner",
+        "imageURL": "images/arCondPort/0c53dc2f-4c0a-40cf-aa82-1f438aeffeab0",
         "description": "thats it",
         "available": "false"
       },
@@ -47,12 +47,6 @@
         "imageURL": "",
         "description": "Rua Tito Bittencourt, 142 - Sao Francisco, Manaus - AM, 69.079-040",
         "available": "true"
-      },
-      {
-        "title": "AMAZONAS GT",
-        "imageURL": "",
-        "description": "Rua Tito Bittencourt, 142 - Sao Francisco, Manaus - AM, 69.079-040",
-        "available": "false"
       }
     ]
   }

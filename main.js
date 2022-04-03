@@ -28,6 +28,9 @@ function displayCards(items) {
     image.className = 'cardImgStyle';
     image.setAttribute('src', item.logoUrl);
     image.setAttribute('alt', item.site);
+    
+    title.textContent = `${item.title}`;
+    description.textContent = `${item.description}`;
 
     card.appendChild(image);
     card.appendChild(title);
@@ -42,8 +45,6 @@ function displayCards(items) {
     } else {
       card.className = 'sold';
     }
-  
-    title.textContent = `${item.title}`;
   
     cards.appendChild(card);
   });
