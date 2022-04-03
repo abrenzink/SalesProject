@@ -40,7 +40,8 @@ function displayCards(items) {
     if(item.available){
       card.className = 'cardStyle';
       checkBtn.innerText = `✅`;
-      checkBtn.addEventListener("click", addToCart.bind(item));
+      let name = item.title
+      checkBtn.addEventListener("click", addToCart.bind(item, name));
       card.appendChild(checkBtn);
     } else {
       card.className = 'sold';
@@ -51,13 +52,13 @@ function displayCards(items) {
   
 }
 
-function addToCart(item){
-  const product = document.querySelector("#cartList").value;
+function addToCart(item, name){
+  const product = document.querySelector("#cartList");
   products.push(item);
-  displayCart(product);
+  displayCart(product, name);
 }
 
-function displayCart(product) {
+function displayCart(product, name) {
 
   const productsList = document.querySelector("#cartList");
 
@@ -66,7 +67,7 @@ function displayCart(product) {
   products.forEach((product) => {
     productsList.innerHTML += `
     <li>
-      <p>${product.title}</p>
+      <p>${name}</p>
       <div>
         <span data-function="delete">❎</span>
       </div>

@@ -3,19 +3,19 @@
       {
         "title": "Air Conditioner",
         "imageURL": "https://i.postimg.cc/RVLybLhL/21492f96-5831-4ec0-8d97-06d0c5c8436c.jpg",
-        "description": "thats it",
+        "description": "Good air conditioner",
         "available": "false"
       },
       {
-        "title": "AMAZONAS GT",
-        "imageURL": "",
-        "description": "Rua Tito Bittencourt, 142 - Sao Francisco, Manaus - AM, 69.079-040",
+        "title": "Sofa",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSPq5f26hZI2kgbKLseVhFNoZe4ikRxfzxog&usqp=CAU",
+        "description": "Beautiful sofa to your room!",
         "available": "true"
       },
       {
-        "title": "AMAZONAS GT",
-        "imageURL": "",
-        "description": "Rua Tito Bittencourt, 142 - Sao Francisco, Manaus - AM, 69.079-040",
+        "title": "Table",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwENXXXo2q-MpDR8rw9eVwE8r2e35lc6SsLwrvOMhqIL_wFhpKHZT83MdwDk6ToNuJlWk&usqp=CAU",
+        "description": "Amazing retro table",
         "available": "true"
       },
       {
