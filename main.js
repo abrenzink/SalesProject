@@ -24,7 +24,7 @@ function displayCards(items) {
     const description = document.createElement('p');
     const checkBtn = document.createElement('button');
 
-    card.className = 'cardStyle';
+    
     image.className = 'cardImgStyle';
     image.setAttribute('src', item.logoUrl);
     image.setAttribute('alt', item.site);
@@ -35,6 +35,7 @@ function displayCards(items) {
 
     
     if(item.available){
+      card.className = 'cardStyle';
       checkBtn.innerText = `✅`;
       checkBtn.addEventListener("click", addToCart.bind(item));
       card.appendChild(checkBtn);
