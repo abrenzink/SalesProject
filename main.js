@@ -26,7 +26,7 @@ function displayCards(items) {
 
     
     image.className = 'cardImgStyle';
-    image.setAttribute('src', item.logoUrl);
+    image.setAttribute('src', item.imageUrl);
     image.setAttribute('alt', item.site);
     
     title.textContent = `${item.title}`;
